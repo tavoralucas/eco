@@ -1,0 +1,67 @@
+body{
+    background-color: #9400d3;
+    background-image: linear-gradient(to right, #9400d3 , #FE5E13);
+    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:10px;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    }
+/* ---- particles.js container ---- */
+
+
+.text-title{
+    display: flex;
+    justify-content: center;
+}
+
+.text-h1{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.play-image{
+    display: flex;
+    justify-content: center;    
+}
+
+.play-redirect{
+    width: 50%;
+}
+
+@media (min-width:900px){
+    .play-redirect{
+        width:25%;
+    }
+}
+/*-----dificuldade.html----*/
+.play-image-dif{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+#section-dif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(max-width:400px){
+    .text-h1{
+        font-size: 40px;
+    }
+}
